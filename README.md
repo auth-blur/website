@@ -16,7 +16,5 @@ The main purpose of this repository is to develop it faster and provide a better
 
 Picass.co Website is MIT licensed.
 
-_Offical Picass.co Website built with [Next.js](https://nextjs.org/)_
-
-Made with [Next.js](https://nextjs.org) and 💖 by
-[<img src="https://raw.githubusercontent.com/ali-furkqn/ali-furkqn/master/badge.png" width="72" align="center">](https://github.com/ali-furkqn)
+_Made with [Next.js](https://nextjs.org) and 💖 by
+[<img src="https://raw.githubusercontent.com/ali-furkqn/ali-furkqn/master/badge.png" width="72" align="center">](https://github.com/ali-furkqn)_
