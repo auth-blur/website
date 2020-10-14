@@ -6,7 +6,7 @@
 
 # Picass.co Website
 
-Offical Picass.co Website's public repository
+Picass.co Website's public repository
 
 ## Information
 
@@ -18,4 +18,5 @@ Picass.co Website is MIT licensed.
 
 _Offical Picass.co Website built with [Next.js](https://nextjs.org/)_
 
-Made with [Next.js](https://nextjs.org) by ![Ali-Furkan](https://raw.githubusercontent.com/ali-furkqn/ali-furkqn/master/badge.png =64x)
+Made with [Next.js](https://nextjs.org) and 💖 by
+[<img src="https://raw.githubusercontent.com/ali-furkqn/ali-furkqn/master/badge.png" width="72" align="center">](https://github.com/ali-furkqn)
