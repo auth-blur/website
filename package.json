@@ -4,7 +4,13 @@
   "description": "Offical Picass.co Website's public repository",
   "main": "index.js",
   "scripts": {
-    
+    "start": "next start",
+    "build": "next build",
+    "dev": "next",
+    "format": "prettier --write (pages|config|lib|stories|layouts|components)/**/*.js",
+    "prettier:watch": "onchange \"(pages|config|lib|stories|layouts|components)/**/*.js\" -- prettier --write \"{{changed}}\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -33,5 +39,5 @@
     "name": "Ali Furkan",
     "email": "alifurkan@picass.co"
   },
-  "license": "MIT"
+  "license": "MPL-2.0 License"
 }
