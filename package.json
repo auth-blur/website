@@ -1,43 +1,43 @@
 {
-  "name": "picassco-website",
-  "version": "0.1.0",
-  "description": "Offical Picass.co Website's public repository",
-  "main": "index.js",
-  "scripts": {
-    "start": "next start",
-    "build": "next build",
-    "dev": "next",
-    "format": "prettier --write (pages|config|lib|stories|layouts|components)/**/*.js",
-    "prettier:watch": "onchange \"(pages|config|lib|stories|layouts|components)/**/*.js\" -- prettier --write \"{{changed}}\"",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "next": "^9.5.5",
-    "nookies": "^2.4.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "recoil": "0.0.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@storybook/addon-actions": "^6.0.26",
-    "@storybook/addon-essentials": "^6.0.26",
-    "@storybook/addon-links": "^6.0.26",
-    "@storybook/react": "^6.0.26",
-    "babel-loader": "^8.1.0",
-    "onchange": "^7.0.2",
-    "postcss-loader": "^4.0.4",
-    "prettier": "^2.1.2",
-    "react-is": "^16.13.1",
-    "tailwindcss": "^1.9.1"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Ali Furkan",
-    "email": "alifurkan@picass.co"
-  },
-  "license": "MPL-2.0 License"
+    "name": "picassco-website",
+    "version": "0.1.0",
+    "description": "Offical Picass.co Website's public repository",
+    "main": "index.js",
+    "scripts": {
+        "start": "next start",
+        "build": "next build",
+        "dev": "next",
+        "format": "prettier . --write --ignore-path \"./.gitignore\"",
+        "prettier:watch": "onchange \"{pages,config,lib,layouts,components,stories}/**/*.js\" -- prettier --write \"{{changed}}\"",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "next": "^9.5.5",
+        "nookies": "^2.4.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "recoil": "0.0.13"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@storybook/addon-actions": "^6.0.26",
+        "@storybook/addon-essentials": "^6.0.26",
+        "@storybook/addon-links": "^6.0.26",
+        "@storybook/react": "^6.0.26",
+        "babel-loader": "^8.1.0",
+        "onchange": "^7.0.2",
+        "postcss-loader": "^4.0.4",
+        "prettier": "^2.1.2",
+        "react-is": "^16.13.1",
+        "tailwindcss": "^1.9.1"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Ali Furkan",
+        "email": "alifurkan@picass.co"
+    },
+    "license": "MPL-2.0 License"
 }
