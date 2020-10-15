@@ -1,17 +1,17 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true
-  },
-  purge: [],
-  theme: {
-    fontFamily: {
-      display: ["Inter", "sans-serif"],
+    future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true,
+        defaultLineHeights: true,
+        standardFontWeights: true,
     },
-    extend: {}
-  },
-  variants: {},
-  plugins: []
+    purge: [],
+    theme: {
+        fontFamily: {
+            display: ["Inter", "sans-serif"],
+        },
+        extend: {},
+    },
+    variants: {},
+    plugins: [],
 }

@@ -9,7 +9,6 @@ We would love for your contribution to make Picass.co better than today! Here ar
 - Commit Message Guidelines
 - Submit Guidelines
 
-
 ## Installation
 
 ## Coding Rules
