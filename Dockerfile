@@ -2,8 +2,6 @@ FROM node:alpine
 
 WORKDIR /app
 
-ENV NODE_ENV=production
-ENV PORT=8080
 
 COPY package.json .
 
@@ -15,5 +13,8 @@ COPY pages pages
 COPY public public
 
 RUN npm run build
+
+ENV NODE_ENV=production
+ENV PORT=8080
 
 CMD [ "npm","start" ]
