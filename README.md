@@ -14,7 +14,4 @@ The main purpose of this repository is to develop it faster and provide a better
 
 ## License
 
-Picass.co Website is MIT licensed.
-
-_Made with [Next.js](https://nextjs.org) and 💖 by
-[<img src="https://raw.githubusercontent.com/ali-furkqn/ali-furkqn/master/badge.png" width="72" align="center">](https://github.com/ali-furkqn)_
+Picass.co Website is [MPL-2.0 licensed](./LICENSE).
