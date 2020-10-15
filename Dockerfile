@@ -7,7 +7,7 @@ COPY package.json .
 
 RUN npm i
 
-COPY ["next.config.js","postcss.config.js", "tailwind.config.js", "./"]
+COPY ["jsconfig.json","next.config.js","postcss.config.js", "tailwind.config.js", "./"]
 
 COPY pages pages
 COPY public public
