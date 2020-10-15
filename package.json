@@ -4,7 +4,7 @@
     "description": "Offical Picass.co Website's public repository",
     "main": "index.js",
     "scripts": {
-        "start": "next start",
+        "start": "next start -p $PORT",
         "build": "next build",
         "dev": "next",
         "format": "prettier . --write --ignore-path \"./.gitignore\"",
