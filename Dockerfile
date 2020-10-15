@@ -13,7 +13,6 @@ COPY ["next.config.js","postcss.config.js", "tailwind.config.js", "./"]
 
 COPY pages pages
 COPY public public
-COPY config config
 
 RUN npm run build
 
