@@ -1,7 +1,7 @@
 .button {
-    transition: all ease-out .2s;
-    @apply px-8 py-2 cursor-pointer rounded text-lg font-semibold shadow-lg
+    transition: all ease-out 0.2s;
+    @apply px-8 py-2 cursor-pointer rounded font-semibold shadow-lg;
 }
 .button:hover {
-    @apply opacity-50 shadow-none
+    @apply opacity-50 shadow-none;
 }
