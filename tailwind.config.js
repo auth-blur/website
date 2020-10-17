@@ -5,18 +5,20 @@ module.exports = {
         defaultLineHeights: true,
         standardFontWeights: true,
     },
-    purge: [],
+    purge: [
+        "./pages/**/*.js",
+    ],
     theme: {
         fontFamily: {
             display: ["Inter", "sans-serif"],
         },
         borderRadius: {
-            "none": "0",
-            "sm": "0.25rem",
-            "default": "1rem",
-            "md": "0.5rem",
-            "lg": "0.75rem",
-            "full": "9999px"
+            none: "0",
+            sm: "0.25rem",
+            default: "1rem",
+            md: "0.5rem",
+            lg: "0.75rem",
+            full: "9999px",
         },
         extend: {
             colors: {
@@ -26,7 +28,7 @@ module.exports = {
                     300: "#F86F64",
                     200: "#FF8278",
                     100: "#FBA29B",
-                    "light": "#FED4D0"
+                    light: "#FED4D0",
                 },
                 secondary: {
                     500: "#933759",
@@ -41,8 +43,8 @@ module.exports = {
                     300: "#FED4D0",
                     200: "#FFFFFF",
                     100: "#FFFFFF",
-                }
-            }
+                },
+            },
         },
     },
     variants: {},
