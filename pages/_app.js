@@ -1,5 +1,9 @@
+/* eslint-disable react/prop-types */
 import Head from "next/head"
 import "@styles/tailwind.css"
+import "@styles/app.css"
+import "react-toastify/dist/ReactToastify.css"
+import { ToastContainer } from "react-toastify"
 
 const MyApp = ({ Component, pageProps }) => (
     <>
@@ -25,6 +29,10 @@ const MyApp = ({ Component, pageProps }) => (
             />
         </Head>
         <Component {...pageProps} />
+        <ToastContainer
+           position="bottom-right"
+           toastClassName="toast"
+        />
     </>
 )
 
