@@ -1,0 +1,6 @@
+.header {
+    @apply w-full fixed;
+}
+.main {
+    @apply flex flex-col justify-center items-center w-full h-screen;
+}
