@@ -1,0 +1,12 @@
+.toast {
+    font-family: Inter,'sans-serif' !important;
+    @apply rounded-lg p-5 !important
+}
+
+.toast-error {
+    @apply bg-primary-300 text-white !important
+}
+
+.toast-success {
+    @apply bg-green-400 text-white !important
+}

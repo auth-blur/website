@@ -1,0 +1,28 @@
+.block {
+    @apply flex flex-col;
+}
+
+.label {
+    @apply px-4;
+}
+
+.label p {
+    @apply text-base font-semibold;
+}
+
+.wrapper {
+    @apply w-full flex rounded-lg justify-center items-center px-2 py-2 shadow-lg;
+}
+
+.wrapper input {
+    @apply outline-none text-base px-2 py-1 font-semibold bg-transparent;
+}
+
+.wrapper input::placeholder {
+    color: inherit;
+    @apply opacity-50 select-none;
+}
+
+.wrapper input:focus {
+    @apply opacity-75;
+}

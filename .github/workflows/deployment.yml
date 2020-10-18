@@ -1,21 +1,21 @@
 name: Picassco Deployment
 on:
-  push:
-      branches:
-          - stable
-          - 'releases/**'
-  pull_request:
-      branches:
-          - stable
-          - 'releases/**'
+    push:
+        branches:
+            - stable
+            - "releases/**"
+    pull_request:
+        branches:
+            - stable
+            - "releases/**"
 env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+    FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
-  deploy:
-      name: Deploy app
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - uses: superfly/flyctl-actions@1.1
-          with:
-            args: "deploy"
+    deploy:
+        name: Deploy app
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: superfly/flyctl-actions@1.1
+              with:
+                  args: "deploy"
