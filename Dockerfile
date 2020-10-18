@@ -12,6 +12,8 @@ COPY ["jsconfig.json","next.config.js","postcss.config.js", "tailwind.config.js"
 COPY pages pages
 COPY public public
 COPY styles styles
+COPY layouts layouts
+COPY components components
 
 RUN npm run build
 
