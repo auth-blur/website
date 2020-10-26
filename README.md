@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Picassco-Banner](./public/assets/banner.png)](https://picass.co)
+[![Picassco-Banner](./public/assets/banners/default.png)](https://picass.co)
 
 </div>
 
