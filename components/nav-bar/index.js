@@ -7,7 +7,7 @@ const Navbar = ({ links }) => (
     <>
         <nav className={["container", style.navbar].join(" ")}>
             <Link href="/">
-                <a className={[style["logos"]]}>
+                <a className={style.logos}>
                     <img
                         width="192px"
                         src="/assets/brand/word-mark-color-black.png"
@@ -15,7 +15,7 @@ const Navbar = ({ links }) => (
                 </a>
             </Link>
             <div className={style.list}>
-                <ul className="flex">
+                <ul className={style.links}>
                     {Object.entries(links).map(([key, data], i) => (
                         <NavLink
                             label={data.text ?? key}
