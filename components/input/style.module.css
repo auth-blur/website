@@ -15,7 +15,7 @@
 }
 
 .wrapper input {
-    @apply outline-none text-base px-2 py-1 font-semibold bg-transparent;
+    @apply outline-none text-base px-2 py-1 font-semibold bg-transparent w-full;
 }
 
 .wrapper input::placeholder {
