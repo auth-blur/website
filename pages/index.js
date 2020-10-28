@@ -7,17 +7,20 @@ import { toast } from "react-toastify"
 const Page = () => {
     const [mail, setMail] = useState()
     const handle = async () => {
-        const data = await fetch("https://api.picass.co/v1/early/mail", {
-            method: "POST",
-            body: { mail },
+        if(!mail) return toast.error("Please enter the email",{
+            className: "toast-error toast",
         })
-        const { message } = await data.json()
+        const data = await fetch("http://localhost:3001/v1/early/mail", {
+            method: "POST",
+            body: new URLSearchParams({mail}),
+        })
         if (data.status > 199 && data.status < 299) {
             toast.success(`Successfully ${mail} Joined`, {
                 className: "toast toast-success",
             })
-        } else {
-            toast.error(message, {
+        }else {
+            const { message } = await data.json()
+            toast.error(message,{
                 className: "toast-error toast",
             })
         }
@@ -30,13 +33,15 @@ const Page = () => {
             <h2 className="font-medium text-xl mb-6 text-center">
                 All of your things, in one place
             </h2>
-            <Input
-                placeholder="Enter email to join"
-                onChange={(e) => setMail(e.target.value)}
-                value={mail}
-            >
-                <Button label="Join" onClick={handle} />
-            </Input>
+            <div className="px-6">
+                <Input
+                    placeholder="Enter email to join"
+                    onChange={(e) => setMail(e.target.value)}
+                    value={mail}
+                >
+                    <Button label="Join" onClick={handle} />
+                </Input>
+            </div>
         </>
     )
 }
