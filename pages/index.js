@@ -10,7 +10,7 @@ const Page = () => {
         if(!mail) return toast.error("Please enter the email",{
             className: "toast-error toast",
         })
-        const data = await fetch("http://api.picass.co/v1/early/mail", {
+        const data = await fetch("https://api.picass.co/v1/early/mail", {
             method: "POST",
             body: new URLSearchParams({mail}),
         })
