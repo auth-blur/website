@@ -1,12 +1,5 @@
-<div align="center">
-
-[![Picassco-Banner](./public/assets/banners/default.png)](https://picass.co)
-
-</div>
-
-# Picass.co Website
-
-Picass.co Website's public repository
+# Blur Website
+Blur Website's public repository
 
 ## Information
 
